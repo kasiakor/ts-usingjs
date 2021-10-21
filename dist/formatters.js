@@ -5,7 +5,7 @@ function sizeFormatter(thing, count) {
 }
 exports.sizeFormatter = sizeFormatter;
 function costFormatter(thing, cost) {
-    writeMessage(`The ${thing}, has total of £${count.toFixed(2)}`);
+    writeMessage(`The ${thing}, has total of £${cost.toFixed(2)}`);
 }
 exports.costFormatter = costFormatter;
 function writeMessage(message) {
